@@ -1,0 +1,12 @@
+This is a Scrapy file directory. To execute the spider do the following : 
+
+Directory outline : connect(outer) - connect(inner) - spiders - spider_files 
+
+Make sure you are in spiders directory and the SFU Connect view is set to Basic HTML(not AJAX)
+
+1. echo connect_spider=\'cd $(pwd)\; python3 pass_params.py\' >> ~/.bashrc
+2. On Command line : 
+
+	>> connect_spider [-u|—username=] <connectUsername> [-p|—pasword=] <connectPassword>
+
+Then, the spider will start crawling through the inbox of the SFU Account. 

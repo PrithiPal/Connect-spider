@@ -1,0 +1,2 @@
+total links = 0
+total search links = 0
